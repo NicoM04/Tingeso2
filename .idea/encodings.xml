@@ -18,10 +18,10 @@
     <file url="file://$PROJECT_DIR$/config-server/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka-server/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/gateway-server/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/ms-2Register/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ms-3Request/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ms-4Evaluation/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ms-Documents/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ms-Register/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ms-Simulate/src/main/java" charset="UTF-8" />
   </component>
 </project>

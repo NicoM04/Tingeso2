@@ -8,9 +8,9 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="config-server" />
-        <module name="ms-2Register" />
         <module name="ms-Simulate" />
         <module name="ms-documents" />
+        <module name="ms-Register" />
         <module name="gateway-server" />
         <module name="ms-3Request" />
         <module name="eureka-server" />
@@ -21,7 +21,6 @@
       <module name="ms-1Simulate" target="17" />
       <module name="ms-6TotalCost" target="17" />
       <module name="ms-products" target="17" />
-      <module name="ms-Register" target="17" />
       <module name="untitled" target="17" />
     </bytecodeTargetLevel>
   </component>
@@ -31,7 +30,6 @@
       <module name="eureka-server" options="-parameters" />
       <module name="gateway-server" options="-parameters" />
       <module name="ms-1Simulate" options="-parameters" />
-      <module name="ms-2Register" options="-parameters" />
       <module name="ms-3Request" options="-parameters" />
       <module name="ms-4Evaluation" options="-parameters" />
       <module name="ms-6TotalCost" options="-parameters" />
