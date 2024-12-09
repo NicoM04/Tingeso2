@@ -21,11 +21,11 @@ spring:
             allowedMethods: "*"
             allowedHeaders: "*"
       routes:
-        - id: ms-orders
-          uri: lb://ms-orders
+        - id: ms-Register
+          uri: lb://ms-Register
           predicates:
-            - Path=/orders/**
-        - id: ms-products
-          uri: lb://ms-products
+            - Path=/api/users/**
+        - id: ms-Request
+          uri: lb://ms-Request
           predicates:
-            - Path=/products/**
+            - Path=/api/credit/**

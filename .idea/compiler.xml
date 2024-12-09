@@ -2,19 +2,26 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="config-server" />
+        <module name="ms-2Register" />
         <module name="ms-Simulate" />
-        <module name="ms-shipping" />
-        <module name="gateway-server" />
-        <module name="ms-products" />
-        <module name="eureka-server" />
+        <module name="ms-3Request" />
+        <module name="ms-documents" />
+        <module name="ms-4Evaluation" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="config-server" target="17" />
+      <module name="eureka-server" target="17" />
+      <module name="gateway-server" target="17" />
+      <module name="ms-1Simulate" target="17" />
+      <module name="ms-6TotalCost" target="17" />
+      <module name="ms-products" target="17" />
+      <module name="ms-Register" target="17" />
       <module name="untitled" target="17" />
     </bytecodeTargetLevel>
   </component>
@@ -23,9 +30,15 @@
       <module name="config-server" options="-parameters" />
       <module name="eureka-server" options="-parameters" />
       <module name="gateway-server" options="-parameters" />
+      <module name="ms-1Simulate" options="-parameters" />
+      <module name="ms-2Register" options="-parameters" />
+      <module name="ms-3Request" options="-parameters" />
+      <module name="ms-4Evaluation" options="-parameters" />
+      <module name="ms-6TotalCost" options="-parameters" />
+      <module name="ms-Register" options="-parameters" />
       <module name="ms-Simulate" options="-parameters" />
+      <module name="ms-documents" options="-parameters" />
       <module name="ms-products" options="-parameters" />
-      <module name="ms-shipping" options="-parameters" />
     </option>
   </component>
 </project>

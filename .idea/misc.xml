@@ -11,6 +11,17 @@
         <option value="$PROJECT_DIR$/ayudantia-microservicios-main/eureka-server/pom.xml" />
         <option value="$PROJECT_DIR$/ayudantia-microservicios-main/gateway-server/pom.xml" />
         <option value="$PROJECT_DIR$/ayudantia-microservicios-main/ms-orders/untitled/pom.xml" />
+        <option value="$PROJECT_DIR$/ayudantia-microservicios-main/ms-Simulate/pom.xml" />
+        <option value="$PROJECT_DIR$/ayudantia-microservicios-main/ms-2Register/pom.xml" />
+        <option value="$PROJECT_DIR$/ayudantia-microservicios-main/ms-3Request/pom.xml" />
+        <option value="$PROJECT_DIR$/ayudantia-microservicios-main/ms-4Evaluation/pom.xml" />
+        <option value="$PROJECT_DIR$/ayudantia-microservicios-main/ms-5RequestState/pom.xml" />
+        <option value="$PROJECT_DIR$/ayudantia-microservicios-main/ms-Documents/pom.xml" />
+        <option value="$PROJECT_DIR$/ms-2Register/pom.xml" />
+        <option value="$PROJECT_DIR$/ms-3Request/pom.xml" />
+        <option value="$PROJECT_DIR$/ms-4Evaluation/pom.xml" />
+        <option value="$PROJECT_DIR$/ms-Documents/pom.xml" />
+        <option value="$PROJECT_DIR$/ms-Simulate/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
