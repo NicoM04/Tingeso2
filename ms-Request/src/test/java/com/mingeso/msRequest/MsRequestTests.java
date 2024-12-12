@@ -1,4 +1,4 @@
-package com.mingeso.msproducts;
+package com.mingeso.msRequest;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

@@ -37,3 +37,16 @@ spring:
           uri: lb://ms-Documents
           predicates:
             - Path=/api/documents/**
+
+
+        - id: ms-Simulate
+          uri: lb://ms-Simulate
+          predicates:
+            - Path=/simulate/**
+
+
+        - id: ms-Evaluation
+          uri: lb://ms-Evaluation
+          predicates:
+            - Path=/api/evaluation/**
+
