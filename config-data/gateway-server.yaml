@@ -25,10 +25,14 @@ spring:
           uri: lb://ms-Register
           predicates:
             - Path=/api/users/**
+
+
         - id: ms-Request
           uri: lb://ms-Request
           predicates:
             - Path=/api/credit/**
+
+
         - id: ms-Documents
           uri: lb://ms-Documents
           predicates:
