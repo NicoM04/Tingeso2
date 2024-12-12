@@ -6,11 +6,9 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 
 
-@FeignClient(value = "ms-Register",
-        path = "/api/users"
-)
+@FeignClient(name = "ms-Register", url = "http://localhost:8080")
 public interface UsersFeignClient {
-    @GetMapping("/{id}")
+    @GetMapping("api/user/{id}")
     userDto getUserById(@PathVariable("id") Long id);
 }
 

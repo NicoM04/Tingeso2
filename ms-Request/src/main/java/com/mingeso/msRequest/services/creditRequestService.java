@@ -85,6 +85,9 @@ public class creditRequestService {
         if (credit == null) {
             throw new RuntimeException("Crédito no encontrado");
         }
-        return usersFeignClient.getUserById(credit.getIdClient());
+        System.out.println("Consultando usuario con ID: " + credit.getIdClient());
+        userDto user = usersFeignClient.getUserById(credit.getIdClient());
+
+        return user;
     }
 }
