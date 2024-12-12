@@ -86,8 +86,18 @@ public class creditRequestService {
             throw new RuntimeException("Crédito no encontrado");
         }
         System.out.println("Consultando usuario con ID: " + credit.getIdClient());
-        userDto user = usersFeignClient.getUserById(credit.getIdClient());
 
-        return user;
+
+        System.out.println("Consultando usuario con ID: " + credit.getIdClient());
+        try {
+            userDto user = usersFeignClient.getUserById(credit.getIdClient());
+            System.out.println("Usuario encontrado: " + user);
+            return user;
+        } catch (Exception e) {
+            System.err.println("Error al consultar usuario: " + e.getMessage());
+            throw new RuntimeException("No se pudo obtener el usuario", e);
+        }
+
+
     }
 }
