@@ -14,11 +14,11 @@ public class DocumentEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(unique = true, nullable = false)
-    private Long id;
+    public Long id;
 
-    private String fileName;  // Nombre del archivo
-    private Long creditId;  // ID del crédito asociado
+    public String fileName;  // Nombre del archivo
+    public Long creditId;  // ID del crédito asociado
 
     @Lob
-    private byte[] fileData;  // Contenido del archivo en formato byte[]
+    public byte[] fileData;  // Contenido del archivo en formato byte[]
 }

@@ -14,7 +14,7 @@ import java.util.List;
 public class DocumentService {
 
     @Autowired
-    private DocumentRepository documentRepository;
+    public DocumentRepository documentRepository;
 
     public DocumentEntity saveDocument(MultipartFile file, Long creditId) throws IOException {
         DocumentEntity document = new DocumentEntity();
