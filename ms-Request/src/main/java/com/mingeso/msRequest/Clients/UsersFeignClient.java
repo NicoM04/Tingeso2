@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 
 @FeignClient(name = "ms-Register", url = "http://localhost:8080")
 public interface UsersFeignClient {
-    @GetMapping("api/user/{id}")
+    @GetMapping("api/users/{id}")
     userDto getUserById(@PathVariable("id") Long id);
 }
 
