@@ -16,7 +16,6 @@ public class creditRequestService {
     @Autowired
     public creditRequestRepository creditRequestRepository;
 
-    @Autowired
     public UsersFeignClient usersFeignClient;
 
 
