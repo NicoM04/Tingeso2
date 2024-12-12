@@ -26,6 +26,7 @@ public class DocumentService {
         return documentRepository.save(document);
     }
 
+
     public DocumentEntity getDocumentById(Long documentId) {
         return documentRepository.findById(documentId)
                 .orElseThrow(() -> new IllegalArgumentException("Documento no encontrado."));
@@ -41,6 +42,6 @@ public class DocumentService {
 
     public byte[] getDocumentData(Long documentId) {
         DocumentEntity document = getDocumentById(documentId);
-        return document.getFileData();
+        return document.getFileData();  // Devolver los bytes del archivo
     }
 }
